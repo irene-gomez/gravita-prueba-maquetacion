@@ -1,0 +1,24 @@
+.main-header {
+    background-color: $color-lightGrey;
+    padding: 10px 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        height: 30px;
+        width: 134px;
+        background-image: url('../images/logo_mintta_r.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &__enter {
+        background-color: $color-greenMint;
+        padding: 8px 15px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: $color-snowWhite;
+        font-weight: 600;
+        box-shadow: 0 2px 4px rgba($color-blackRock, .3);
+    }
+}
