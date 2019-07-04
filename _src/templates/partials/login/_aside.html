@@ -1,22 +1,33 @@
 <aside class="login__info">
-    <div class="form__wrapper">
-        <h1>Hola</h1>
-        <p>Accede a tu cuenta</p>
-        <form action="">
-            <div>
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Email" required>
-            </div>
-            <div>
-                <label for="password"></label>
-                <input type="password" name="password" id="password" placeholder="Contraseña" required>
-            </div>
-            <button type="submit">Entrar</button>
-        </form>
-        <p>Has olvidado tu contraseña?</p>
-        <a href="#">Restaurar contraseña</a>
-    </div>
-    <div class="info">
-        aaaaaaaaa
-    </div>
+  <div class="form__wrapper">
+    <h1 class="login__main-title">Hola</h1>
+    <p class="login__text-info">Accede a tu cuenta</p>
+    <partial src="./login/_login-form.html"></partial>
+    <p class="form__info-pass form__info-pass--bold">
+      ¿Has olvidado tu contraseña?
+    </p>
+    <p class="form__info-pass">
+      <a class="restore__pass" href="#">Restaurar contraseña</a>
+    </p>
+  </div>
+  <div class="footer-form">
+    <a href="/">
+      <img
+        class="footer-form__logo"
+        src="./assets/images/logo_mintta_r.png"
+        alt="Mintta"
+      />
+    </a>
+    <p class="footer-form__info">
+      <span
+        ><img
+          class="footer-form__logo--small"
+          src="./assets/images/logo_mintta.png"
+          alt="Mintta"
+      /></span>
+      es una marca propiedad de Gravita. Todos los derechos reservados.
+      <a class="footer-form__link" href="/">Política de privacidad.</a>
+      <a class="footer-form__link" href="/">Política de cookies.</a>
+    </p>
+  </div>
 </aside>
