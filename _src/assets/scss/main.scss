@@ -4,6 +4,7 @@
 
 // Components
 @import './components/login-form';
+@import './components/user-menus';
 
 // Layout
 @import './layout/main-header';
@@ -12,3 +13,4 @@
 // Pages
 @import './pages/index';
 @import './pages/login';
+@import './pages/dashboard';

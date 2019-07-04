@@ -1,0 +1,48 @@
+.dashboard__wrapper {
+    display: flex;
+}
+
+.main-dashboard {
+    height: 100vh;
+    flex-grow: 2;
+    background-color: $color-pearlGrey;
+    &__hero {
+        height: 250px;
+        background-image: url('../images/earth.jpg');
+        background-size: cover;
+        background-position: bottom center;
+    }
+    &__logo {
+        height: 100px;
+        width: 100px;
+        background-color: $color-snowWhite;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 30px;
+        transform: translateY(-50%);
+        box-shadow: 0 3px 4px rgba($color-blackRock, .3);
+    }
+}
+
+.logo--nasa {
+    width: 80px;
+}
+
+.wrapper__hero {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.dashboard{
+    &__content {
+        width: 50%;
+        background-color: $color-snowWhite;
+        margin: 0 auto;
+        box-shadow: 0 2px 3px rgba($color-blackRock, .2);
+
+    }
+
+}
