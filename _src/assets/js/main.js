@@ -1,3 +1,9 @@
 'use strict';
 
-console.log('>> Ready :)');
+const btnSubmitEl = document.querySelector('.btn__submit');
+
+function handleButtonClick() {
+  location.href = '/dashboad.html';
+}
+
+btnSubmitEl.addEventListener('click', handleButtonClick);
