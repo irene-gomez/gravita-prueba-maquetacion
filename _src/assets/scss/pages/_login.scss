@@ -1,0 +1,30 @@
+.login {
+    &-page {
+        min-height: 100vh;
+        background: 
+            linear-gradient(0, rgba($color-greenMint, .4) 0%, rgba($color-greenMint, .4) 100%),
+            url('../images/kitchen.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__info {
+        min-height: 100vh;
+        width: 20%;
+        background-color: $color-snowWhite;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+.form {
+    &__wrapper {
+        background-color: pink;
+        margin-bottom: 80px;
+    }
+}
+
+.info {
+    background-color: crimson;
+}
